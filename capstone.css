@@ -1,0 +1,286 @@
+body {
+    background: magenta;
+    background: radial-gradient(purple, yellow , blue);
+}
+
+
+ul {
+    width: 800px;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 4px;
+    list-style: none;
+    background: #cd9812;
+    display: block;
+}
+   
+ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 8px;
+    border: 3px solid gray;
+    text-align: center;
+}
+
+ul li a {
+    display: block; 
+    padding: 5px 10px 2px 10px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    color: #aaa;
+    background: #a97fff;
+}
+ul li ul.dropdown {
+    max-width: 120px;
+    background: #cd9812;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    font-size: 18px; 
+}
+ul li:hover ul.dropdown {
+    display: block; /*will show the dropdown*/
+}
+ul li ul.dropdown li {
+    display: block;
+}
+
+#wrapper {
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto;
+}
+#spainWrap {
+
+	text-align: center; 
+	background-color: white; 
+    margin: 50px;
+}
+#nothingWrap {
+	margin: 70px; 
+	text-align: center; 
+	background-color: #ad987a; 
+	color: white; 
+}
+#colombiaWrapper {
+    margin: 100px;
+}
+#colombiaWrapper img {
+    width: 200px;
+    height: 200px;
+    text-align: center; 
+}
+
+#content #colombiaLocation img {
+    width: 200px;
+    height: 200px; 
+    margin: 40px; 
+}
+#content #colombiaPolitics img {
+    width: 200px; 
+    height: 200px; 
+    margin: 40px;
+}
+#middleColumn #colombiaCulture {
+    text-align: center;
+}
+#middleColumn #colombiaCulture img {
+    width: 280px;
+    height: 160px;
+}
+#content #colombiaLocation {
+    text-align: center;
+}
+header {
+    height: 120px;
+    padding: 0 13px;
+    text-align: center;
+}
+
+
+header #flag {
+	width: 200px;
+	height: 80px; 
+}
+
+#help {
+    
+    background-color: beige;
+    text-align: center;
+    margin: 80px;
+}
+#content {
+    width: 280px;
+    float: left;
+    padding: 5px 15px;
+    background-color: white;
+}
+#puente img {
+
+	width: 400px; 
+	height: 300px; 
+
+}
+#content p {
+	text-align: center; 
+
+}
+
+#content h2 {
+    text-align: center;
+}
+#content #japanLocation img {
+	width: 280px;
+	height: 200px; 
+}
+
+#content #japanPolitics img {
+	width: 280px;
+	height: 200px; 
+}
+#brazilWrapper {
+    background-color: #009b3a;
+    margin: 50px;
+    color: #fedf00;
+}
+#brazilLocation {
+    text-align: center; 
+}
+#brazilLocation img {
+    
+    width: 480px;
+    height: 200px; 
+}
+#brazilPolitics {
+    text-align: center; 
+}
+#brazilPolitics img {
+    width: 280px;
+    height: 250px; 
+}
+#brazilCulture {
+    text-align: center; 
+}
+#brazilCulture img {
+    width: 300px;
+    height: 200px; 
+}
+#content #regions img {
+
+	width: 280px; 
+	height: 300px; 
+}
+
+#middleColumn {
+    width: 295px;
+    float: left;
+    padding: 5px 15px;
+    margin: 0px 5px 5px 5px;
+    background-color: white;
+}
+#middleColumn h2 {
+    text-align: center;
+}
+
+#middleColumn #beninCuisine {
+	text-align: center; 
+
+}
+
+#middleColumn #japanCulture {
+
+	text-align: center; 
+} 
+#middleColumn #japanCulture img {
+ 
+	width: 300px;
+	height: 130px; 
+
+}
+   
+#middleColumn img {
+    
+    width: 300px;
+    height: 220px;
+}
+
+#middleColumn p {
+	text-align: center; 
+
+}
+#thirdColumn {
+
+	width: 270px;    
+	padding: 5px 15px;
+    	float: left; 
+    	background-color: white;
+}
+
+#thirdColumn h2 {
+
+	text-align: center; 
+}
+
+#thirdColumn #arts {
+	
+	text-align: center; 
+
+}
+
+#thirdColumn #japanArts{
+	text-align: center; 
+
+}
+
+#thirdColumn #japanArts img{
+
+	width: 250px; 
+	height: 200px; 
+
+}
+
+#phrases {
+	list-style-type: none;  
+	display: table; 
+	background-color: white;
+	width: 270px;
+	text-align: center; 
+    color: forestgreen;
+	
+}
+
+#phrases img {
+
+	width: 250px;
+	height: 68px; 
+
+}
+
+
+#mundo {
+    width: 700px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottomView {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px; 
+    background-color: #cd9812;
+    color: white;
+    
+}
+
+
+footer {
+    text-align: center; 
+	clear: both; 
+    
+}
